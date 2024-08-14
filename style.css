@@ -1,0 +1,145 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #000000d8;
+    
+    
+}
+
+.container{
+    width:80%;
+    height: 50%;
+    max-height: 500px;
+    max-width: 500px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(186, 186, 186, 0.344);
+    
+}
+
+.container header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container header h1{
+    
+    font-size: 2rem;
+   
+    background-image: linear-gradient(90deg, #1512b7 0%, #811abd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container main{
+    height: 80%;
+    
+    
+}
+
+
+
+
+#task-form input[type="text"]{
+   
+  width: 200px;
+   padding: 2px;
+  border-radius: 4px;
+  border: none;
+ 
+ 
+}
+
+#task-form button{
+    padding: 2px 5px;
+    margin-left: 5px;
+    width: 70px;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    background-image: linear-gradient(90deg, #8f8eba 0%, #d180ff 100%);
+    color: #3f1543;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+#task-form button:hover{
+    background-image: linear-gradient(90deg, #cccbec 0%, #dfbff1 100%);
+}
+
+.tasks{
+    max-height:60%;
+    max-width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: around;
+    overflow: hidden;
+   
+}
+
+.tasks ul{
+  
+   text-align: center;
+   list-style: none;
+   
+}
+
+.tasks ul input[type='checkbox']{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.tasks ul li{
+    display: flex;
+    max-width: 400px;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #3f1543;
+    font-weight: 700;
+}
+
+.tasks ul li span{
+    flex: 1;
+}
+
+footer{
+    margin-bottom: 20px;
+    background-image: linear-gradient(90deg, #1512b7 0%, #811abd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+
+.btn-task{
+   
+    width: 45px;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    font-weight: 600;
+    background-image: linear-gradient(90deg, #1512b7 0%, #811abd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
