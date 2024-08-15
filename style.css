@@ -48,14 +48,11 @@ body{
 
 .container main{
     height: 80%;
-    
-    
+     
 }
 
 
-
-
-#task-form input[type="text"]{
+input[type="text"]{
    
   width: 200px;
    padding: 2px;
